@@ -13,15 +13,18 @@ body {
   overflow-x: hidden;
 }
 .wrapper {
-  max-width: 1920px;
-  margin: 0 auto;
-  /* background: url(../img/Bg-img.png) no-repeat top / 100%; */
-  /* height: 100vh; */
+  position: relative;
+  width: 100%;
+  height: 109vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    url(../img/Bg-img.png);
+  background-position: center;
+  background-size: cover;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 section {
   display: none;
