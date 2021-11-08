@@ -137,7 +137,6 @@
 }
 .intro-content {
   display: flex;
-  gap: 0 50px;
   align-items: center;
 }
 .intro-content h2 {
@@ -174,6 +173,178 @@
 .intro-image {
   width: 50%;
 }
+
+.email-marketing {
+  display: block;
+  padding-top: 150px;
+}
+.email-content {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.mail-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #252b42;
+  line-height: 28px;
+}
+.mail-box h2 {
+  font-size: 48px;
+  font-weight: 400px;
+  line-height: 55px;
+  color: #252b42;
+  margin-top: 18px;
+  margin-bottom: 36px;
+}
+.mail-des {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+.mail-box p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #374754;
+  margin-left: 8px;
+}
+.mail-subscribe {
+  margin-top: 36px;
+  margin-left: 8px;
+}
+.mail-subscribe input {
+  padding: 18px 44px;
+  border-radius: 39px;
+  color: #18171d;
+  background: #e8e8e8;
+  border: none;
+  font-size: 14px;
+}
+.mail-subscribe button {
+  margin-left: 12px;
+  padding: 14px 30px;
+  background: #2091f9;
+  border: none;
+  border-radius: 35px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.mail-subscribe button:hover {
+  background: #808080;
+  transition: 0.4s;
+}
+.partners {
+  padding-top: 150px;
+  display: block;
+}
+.partner-logo-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 90px;
+  justify-content: center;
+}
+.google-logo-img {
+  width: 90%;
+  height: 44%;
+  object-fit: cover;
+}
+.amazon-logo-img {
+  width: 170px;
+  height: 74px;
+  object-fit: cover;
+}
+.dropbox-logo-img {
+  width: 245px;
+  height: 48px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.microsoft-logo-img {
+  width: 240px;
+  height: 64px;
+  object-fit: cover;
+}
+.uber-logo-img {
+  width: 200px;
+  height: 62px;
+  object-fit: cover;
+}
+.partner-box {
+  /* display: flex; */
+  width: 300px;
+  height: 150px;
+  border: 1px solid #d8d8d8;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.partner-box:first-child {
+  /* display: flex; */
+  /* width: 270px;
+  height: 148px; */
+  width: 274px;
+  margin-left: 4px;
+  height: 164px;
+}
+.partner-box:nth-child(2) {
+  /* width: 300px;
+  height: 144px; */
+  width: 274px;
+  height: 160px;
+}
+.partner-box:nth-child(3) {
+  /* width: 340px;
+  height: 150px; */
+  width: 302px;
+  height: 166px;
+  border: 1px solid #d8d8d8;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.partner-box:nth-child(4) {
+  /* width: 254px;
+  height: 150px; */
+  width: 220px;
+  height: 166px;
+  border: 1px solid #d8d8d8;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.partner-box:nth-child(5) {
+  /* width: 340px;
+  height: 150px; */
+  width: 310px;
+  height: 164px;
+}
+.partner-box:nth-child(6) {
+  width: 274px;
+  height: 164px;
+}
+.partner-box:nth-child(7) {
+  width: 220px;
+  height: 166px;
+}
+.partner-box:nth-child(8) {
+  width: 274px;
+  height: 160px;
+}
+.partner-box h5 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #374754;
+}
+.btn {
+  display: flex;
+}
+
 footer {
   width: 100%;
   background: #252b42;
