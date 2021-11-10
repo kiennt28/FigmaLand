@@ -3,17 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header-top {
+header {
+  display: block;
+}
+#navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 65px;
+  overflow: hidden;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .menu {
   list-style: none;
   display: flex;
-  align-items: flex-end;
-  gap: 0 40px;
+  align-items: center;
+  gap: 48px;
 }
 .header-social {
   display: flex;
@@ -21,6 +30,7 @@
   align-items: center;
   list-style: none;
   text-decoration: none;
+  list-style: none;
 }
 .header-social a {
   text-decoration: none;
@@ -116,21 +126,9 @@
   font-weight: 700;
   margin-bottom: 20px;
 }
-.work-video {
+/* .work-video {
   position: relative;
-}
-.video-img {
-  width: 100%;
-}
-.play-btn {
-  display: block;
-  width: 160px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-}
+} */
 .intro {
   padding-top: 150px;
   display: block;
@@ -235,6 +233,9 @@
 .mail-subscribe button:hover {
   background: #808080;
   transition: 0.4s;
+}
+.mail-img {
+  width: 50%;
 }
 .partners {
   padding-top: 150px;
@@ -399,6 +400,9 @@ button.btn-more {
 button.btn-more:hover {
   background: #808080;
   transition: 0.4s;
+}
+section.price-content {
+  height: 1160px;
 }
 .price-content {
   display: block;
@@ -575,10 +579,15 @@ button.btn-send {
   background: var(--blue);
   color: #fff;
   font-size: 20px;
+  transition: 0.4s;
+}
+button.btn-send:hover {
+  background: #808080;
+  cursor: pointer;
 }
 .contact-info {
   display: flex;
-  gap: 50px;
+  gap: 35px;
   padding-top: 32px;
 }
 .contact-address {
@@ -647,6 +656,7 @@ footer {
   width: 100%;
   background: #252b42;
   padding: 150px 0 150px;
+  position: relative;
 }
 footer .container .row .col h3 {
   font-size: 20px;
@@ -657,7 +667,7 @@ footer .container .row .col h3 {
 }
 ul li {
   list-style: none;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 ul li a {
   text-decoration: none;
@@ -679,6 +689,7 @@ ul li a {
 li.info-social {
   display: flex;
   gap: 20px;
+  padding-top: 10px;
 }
 .info li span {
   list-style: none;
@@ -697,4 +708,15 @@ li.info-social {
 }
 .content .info li span:nth-child(1) {
   font-size: 40px;
+}
+.ri-arrow-up-line {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 60px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border-radius: 50px;
 }
