@@ -16,7 +16,7 @@ function scrollFunction() {
   }
 }
 function arrowFunction() {
-  if (window.pageYOffset > scroll + 200) {
+  if (window.pageYOffset > scroll) {
     backToTop.classList.add("show");
   } else {
     backToTop.classList.remove("show");
