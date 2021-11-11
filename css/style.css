@@ -3,37 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+.block-space {
+  width: 100px;
+  top: 0;
+  height: 50px;
+}
 header {
   display: block;
   width: 100%;
   position: absolute;
   left: 0;
   margin: 0;
-  height: 90px;
+}
+header.transparent {
+  background: none;
 }
 #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-top: 65px; */
   overflow: hidden;
   transition: 1s;
-  /* padding-right: 150px;
-  padding-left: 150px; */
-  /* margin: 65px; */
-  top: 65px;
-  left: 0;
-  right: 0;
-  position: absolute;
-  padding: 0 350px;
 }
-.sticky {
-  background: #252b42;
+header.sticky {
+  background: rgb(37 43 66 / 80%);
   position: fixed !important;
-  /* top: 0 !important; */
-  width: 100%;
-  padding: 0 50px;
-  transform: translateY(-107%);
+  top: 0px;
+  box-shadow: 0 4px 6px 0 rgb(10 10 10 / 5%);
+  border: 0;
+  z-index: 1;
 }
 .menu {
   list-style: none;
