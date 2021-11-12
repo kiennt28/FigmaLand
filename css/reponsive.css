@@ -1,0 +1,65 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 739px) {
+  #navbar {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  #navbar {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .header-center p span {
+    display: contents;
+  }
+  .work-item {
+    width: calc(33.33% - 40.67px);
+  }
+  .email-content {
+    gap: 64px;
+  }
+  .mail-subscribe button {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .price-menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+/* PC: width >= 1024 */
+@media only screen and (min-width: 1024px) and (max-width: 2560px) {
+  .navbar-mobile {
+    display: none;
+  }
+  .email-content {
+    gap: 50px;
+  }
+  .price-item {
+    width: 318px;
+  }
+  .contact-info {
+    gap: 16px;
+  }
+  .contact-right {
+    width: 34%;
+  }
+  iframe.map {
+    width: 80%;
+  }
+  .contact-left {
+    width: 63%;
+  }
+}

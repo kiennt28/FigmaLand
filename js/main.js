@@ -5,18 +5,17 @@ window.onscroll = function () {
 
 var navbar = document.querySelector("header");
 var backToTop = document.getElementById("toTop");
-var sticky = navbar.offsetTop + window.pageYOffset;
-var scroll = navbar.offsetTop + window.pageYOffset + 200;
+var sticky = navbar.offsetTop;
 
 function scrollFunction() {
-  if (window.pageYOffset > sticky) {
+  if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
   }
 }
 function arrowFunction() {
-  if (window.pageYOffset > scroll) {
+  if (window.pageYOffset >= sticky) {
     backToTop.classList.add("show");
   } else {
     backToTop.classList.remove("show");
