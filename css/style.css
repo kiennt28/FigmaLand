@@ -34,6 +34,9 @@ header.transparent {
   -o-transition: 1s;
   transition: 1s;
 }
+li.menu-item {
+  margin-bottom: 8px;
+}
 .nav-toggler {
   float: right;
   margin-top: 16px;
