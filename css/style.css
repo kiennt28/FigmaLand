@@ -34,9 +34,9 @@ header.transparent {
 } */
 .nav-toggler {
   float: right;
-  margin-top: 20px;
-  height: 34px;
-  width: 44px;
+  margin-top: 16px;
+  height: 46px;
+  width: 66px;
   background: none;
   cursor: pointer;
   border: none;
@@ -97,9 +97,13 @@ header.transparent {
 .nav-toggler span::after {
   transform: translateY(6px);
 }
+.navbar-mobile {
+  height: 56px;
+}
 .nav-mobile {
   position: fixed;
-  width: 30%;
+  width: 40%;
+  right: -100px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -305,6 +309,9 @@ header.sticky {
   font-weight: 700;
   color: #252b42;
   line-height: 28px;
+}
+img.mail-img {
+  display: block;
 }
 .mail-box h2 {
   font-size: 48px;
