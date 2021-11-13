@@ -48,7 +48,7 @@
     margin-top: 20px;
   }
   .nav-mobile {
-    width: 60%;
+    width: 70%;
   }
   .box-content {
     display: flex;
@@ -145,6 +145,7 @@
     padding-top: 40px;
   }
   .price-item {
+    width: 100%;
     margin-top: 0px;
     margin-bottom: 40px;
   }
@@ -166,6 +167,7 @@
   .contact-right {
     width: 100%;
     margin-top: 70px;
+    padding: 30px;
   }
   .contact-info {
     display: flex;
@@ -196,6 +198,9 @@
   .contact-map {
     display: none;
   }
+  button.btn-order {
+    padding: 14px 56px;
+  }
   footer {
     padding: 100px 0px 130px 0px;
   }
@@ -210,6 +215,10 @@
     display: flex;
     justify-content: center;
     padding-top: 30px;
+  }
+  .col {
+    width: 100%;
+    text-align: center;
   }
 }
 /* Tablet: width >= 740px and width < 1024px */
